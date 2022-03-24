@@ -37,6 +37,7 @@ router.get("/todo", (req, res, next) => {
                 res.send(err);
             }
         }
+        
         res.json({
             status: "success",
             data: todo,
